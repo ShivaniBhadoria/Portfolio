@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const viewResumeIcon = document.querySelector("#view-resume");
     
     viewResumeIcon.addEventListener("click", function() {
-        window.open('assets/Shivani_Bhadoria_SDE_Resume.pdf', '_blank');
+        window.open('assets/Resume/ShivaniBhadoria-Frontend-3yrs.pdf', '_blank');
     });
 
 });
@@ -61,8 +61,8 @@ downloadBtn.addEventListener('click', function() {
   downloadBtn.classList.add('on-click');
 
   const link = document.createElement('a');
-  link.href = '../assets/Shivani_Bhadoria_SDE_Resume.pdf';
-  link.download = 'Shivani_Bhadoria_Resume_3yrs.pdf';
+  link.href = 'assets/Resume/ShivaniBhadoria-Frontend-3yrs.pdf';
+  link.download = 'ShivaniBhadoria-Frontend-3yrs.pdf';
 
   document.body.appendChild(link);
   link.click();
