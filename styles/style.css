@@ -275,7 +275,7 @@ html body main .about .about-content .about-details .fa-desktop {
 }
 html body main .about .about-content .about-details p {
   margin-top: 1rem;
-  background-color: rgba(16, 233, 86, 0.1);
+  background-color: rgba(16, 233, 86, 0.15);
 }
 html body main .about .about-content .about-details .fa-laptop-code {
   margin-top: 1.5rem;
@@ -292,7 +292,7 @@ html body main .about .about-content .about-skills {
   box-shadow: inset 0 1px 8px 1px #10712f;
 }
 html body main .about .about-content .about-skills:hover {
-  box-shadow: inset 0 1px 8px 1px #0dd14b;
+  box-shadow: inset 1px 0px 16px 3px #0dd14b;
   transform: translateY(-5px);
 }
 html body main .about .about-content .about-skills h3 {
